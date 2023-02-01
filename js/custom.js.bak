@@ -1,0 +1,29 @@
+$(function () {
+
+    // code for slider controllers
+    var cards = $("#wish_card").lightSlider({
+        item: 1,
+        mode: "slide",
+
+        speed: 1000, //ms'
+        auto: true,
+        pauseOnHover: false,
+        loop: true,
+        pause: 10000,
+        pager: false,
+        onSliderLoad: function (el) {
+        },
+        onBeforeSlide: function (el) {
+        },
+        onAfterSlide: function (el) {
+            
+        }
+        // onBeforeStart: function (el) {},
+        // onSliderLoad: function (el) {},
+        // onBeforeSlide: function (el) {},
+        // onAfterSlide: function (el) {},
+        // onBeforeNextSlide: function (el) {},
+        // onBeforePrevSlide: function (el) {}
+    });
+
+})

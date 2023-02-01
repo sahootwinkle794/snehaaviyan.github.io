@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background: red;
+}
+
+.navbar-expand-sm{
+    border-radius: 29px;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+}
+.btn-danger{
+    border-radius: 29px;
+    background-color: rgba(254, 0, 0, 1); 
+}
+.btn-dark{
+    border-radius: 29px;
+}
+.btn-light{
+    border-radius: 29px;
+}
+.involved{
+    background: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 35px;
+}
+.involved .btn{
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.causes{
+    background: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px;
+    margin-top: 20px;
+}
+.call a{
+ text-decoration: none;
+}
+.join{
+    width: 200px;
+}
+.learn{
+    width: 200px;
+}
+.donate{
+    width: 200px;
+}
+
+.line{
+    width: 70px;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+.link a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.link , a:hover{
+    color: red;
+}
+.team a{
+    text-decoration: none;
+    color: red;
+}
+.team a:hover{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    text-align: justify;
+}
+.rounded-circle{
+   width: 110px;
+   height: 110px;
+   position: relative;
+   bottom: 338px;
+}
+.donation {
+    background: url(images/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    color: white;
+}
+.footer{
+    background-color: rgba(86, 85, 85, 1);
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.end_div{
+    color: rgba(254, 0, 0, 1);
+}
+
+
+
+/*progress bar*/
+
+.progress{
+    height: 22px;
+    background: black;
+    border-radius: 15px;
+}
+.progress .progress-bar{
+    border-radius: 15px;
+}
+.progress .progress-value{
+    background: red;
+}
+
+.banner{
+    background: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+}
+
+
