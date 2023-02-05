@@ -2,6 +2,17 @@
     padding: 0;
     margin: 0;
 }
+.involved #get_invo a{
+color:white;
+text-decoration:none;
+}
+.banner{
+    background: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+}
 .navbar{
     background: red;
 }
@@ -115,12 +126,10 @@
     background: red;
 }
 
-.banner{
-    background: url(images/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    padding: 100px;
+
+
+@media (max-width: 575.98px) { 
+     .hide{
+        display: none !important;
+    }
 }
-
-
